@@ -34,7 +34,7 @@
             bottom: 0px;
             content: '';
             height: 30px;
-            background-color: rgba(22, 22, 61, 0.508);
+            background-color: rgba(7, 7, 7, 0.715);
             border-top: 4px solid rgb(200, 45, 76);
             box-shadow: inset 0 20px 20px rgb(8, 8, 65);
 
@@ -225,27 +225,33 @@
         }
 
         .box1:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box2:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box3:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box4:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box5:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box6:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box7 {
@@ -262,7 +268,8 @@
         }
 
         .box7:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box8 {
@@ -279,7 +286,8 @@
         }
 
         .box8:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .box9 {
@@ -296,7 +304,8 @@
         }
 
         .box9:hover {
-            scale: 1.2;
+            scale: 1.1;
+            border:1px solid rgba(231, 228, 228, 0.592);
         }
 
         .boxes {
@@ -304,9 +313,10 @@
             justify-content: flex-start;
             width: 80%;
             overflow-x: auto;
-            height:50vh;
+            overflow-y: hidden;
+            height:48vh;
             gap: 10px;
-            padding: 10px;
+            padding: 30px 10px;
             margin-top: 20px;
            
 
@@ -502,6 +512,7 @@
         .how:hover {
             background-color: #6c757d;
         }
+        
 
         @media(max-width:1100px) {
             .ibox1 {
@@ -671,9 +682,9 @@
 
             <div class="d-flex gap-2">
                 <div class="form-floating">
-                    <textarea class="form-control m3" placeholder="Leave a comment here"
-                        id="floatingTextarea"></textarea>
-                    <label for="floatingTextarea  " class="text-secondary  m31 fw-semibold">Email address</label>
+                    <input  type="text" class="form-control m3" placeholder="Leave a comment here"
+                        id="floatingTextarea"></input>
+                    <label for="floatingTextarea  " class="text-secondary   fw-semibold">Email address</label>
                 </div>
                 <button class="btn btn-danger m4" type="submit">Get Started <i
                         class="fa-solid mx-4 fa-chevron-right itag2 text-light"></i>
@@ -690,7 +701,9 @@
 
     <!-- section-2 -->
     <div class="sectwo d-flex  justify-content-top align-items-center flex-column">
-        <div class="boxes ">
+        <h1 class="text-light ">Trending Now</h1>
+        <div class="boxes" >
+            
             <div class="box1">
                 <p class="numbers">1</p>
             </div>
